@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./globalStyles.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
     <link rel="stylesheet" href="./styles/titulo.css">
     <link rel="stylesheet" href="./styles/linguagens.css">
     <link rel="stylesheet" href="./styles/pesquisa.css">
@@ -15,20 +15,23 @@
 </head>
 <body>
     <header>
-        <div class="titulo"><h1>Tech Blog</h1>
-        <img id="menu" src="./img/menu.svg" alt="">
+        <div class="titulo">
+            <img src="./img/Tech Blog.svg" alt="">
+            <img id="menu" src="./img/menu.svg" alt="">
         </div>
-        <nav class="linguagens">
-            <span>All</span>
-            <span>CSS</span>
-            <span>Javascript</span>
-            <span>Python</span>
-            <span>Java</span>
-        </nav>
+        <ul class="linguagens">
+            <li>All</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ul>
         <div class="pesquisa">
             <input placeholder="pesquisar por" type="text">
-            <img src="./img/profile.svg" alt="img_perfil">
-            <h4>Samuel Leão</h4>
+            <div class="perfil">
+                <img src="./img/profile.svg" alt="img_perfil">
+                <h4>Samuel Leão</h4>
+            </div>
         </div>
 
     </header>

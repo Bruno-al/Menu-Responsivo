@@ -1,0 +1,26 @@
+.pesquisa{
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+}
+.pesquisa input{
+    width: 90%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.perfil{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+.perfil h4{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.perfil img{ 
+    height: 50%;
+    width: 50%;
+}

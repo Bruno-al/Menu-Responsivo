@@ -1,0 +1,22 @@
+.linguagens{
+    border-bottom: solid var(--color-grey-4) 2px;
+}
+.linguagens li:first-child{
+    color: var(--color-grey-1);
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+}
+.linguagens li{
+    color: var(--color-grey-2);
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+}
+.linguagens li:hover{
+    cursor: pointer;
+    color: var(--color-grey-1);
+    
+}
