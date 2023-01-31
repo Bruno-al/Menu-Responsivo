@@ -7,16 +7,17 @@
     padding: 1rem;
     font-weight: 500;
     line-height: 19px;
+    background-color: var(--color-grey-6);
 }
 .linguagens li{
     color: var(--color-grey-2);
     font-size: 1rem;
     padding: 1rem;
     font-weight: 500;
-    line-height: 19px;
+    
 }
 .linguagens li:hover{
     cursor: pointer;
     color: var(--color-grey-1);
-    
+    background-color: var(--color-grey-6);
 }

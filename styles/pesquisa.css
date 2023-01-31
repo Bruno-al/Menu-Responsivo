@@ -2,25 +2,37 @@
     display: flex;
     margin-top: 1rem;
     position: relative;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0.9rem;
 }
 .pesquisa input{
-    width: 90%;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-image: url("../img/search.svg");
+    background-position: 0.2rem;
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    height: 2.375rem;
+    padding-left: 1.7rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+    background-color: var(--color-grey-5);
+    border: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }
 .perfil{
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: flex;
     align-items: center;
-    width: 45%;
+    gap: 0.5rem;
 }
 .perfil h4{
     font-size: 0.875rem;
     font-weight: 500;
+    
 }
 .perfil img{ 
-    height: 50%;
-    width: 50%;
+    height: 2rem;
+    width: 2rem;
 }

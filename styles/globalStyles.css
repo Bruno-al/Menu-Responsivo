@@ -9,7 +9,7 @@
     --color-grey-5: #F1F3F5;
     --color-grey-6: #F8F9FA;
     --color-mode: #ffffff;
-    
+    --margin: 3rem ;
 }
 body{
     font-family: 'Roboto', sans-serif;
